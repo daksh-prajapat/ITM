@@ -290,7 +290,7 @@ ABOUT SECTION
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 70px 20px;
+    padding: 70px 20px 70px 0;
     /* background: #FDF9F4; */
 }
 
