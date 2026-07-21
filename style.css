@@ -915,7 +915,7 @@ RIGHT - FIXED HEIGHT
 ==================================*/
 
 .features-right {
-        border-radius: 8px;
+    border-radius: 8px;
     flex: 1;
     background: #F5F5F5;
     padding: 20px 60px;
@@ -3053,7 +3053,7 @@ ARROWS
     color: #51422E;
     margin-bottom: 14px;
     transition: .45s;
-       font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 
@@ -3649,10 +3649,7 @@ MEGA MENU
     margin: 0 auto;
     overflow: hidden;
 
-    background:
-        linear-gradient(rgba(31, 22, 19, 0.72),
-            rgba(31, 22, 19, 0.72)),
-        url("./images/footer-bg.png");
+    background: linear-gradient(rgb(24 6 0 / 95%), rgb(12 3 0 / 98%)), url(./images/footer-bg.png);
 
     background-size: cover;
     background-position: center;
@@ -3790,7 +3787,7 @@ MEGA MENU
 
     transition: .3s;
 
-       font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .footer-links a:hover {
@@ -3820,14 +3817,14 @@ MEGA MENU
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-        font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .contact-item span {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-        font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .contact-item i {
