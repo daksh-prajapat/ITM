@@ -741,7 +741,7 @@ SMALL MOBILE - 576px
     }
 
     .about-section {
-        padding: 60px 12px;
+        padding: 0px 12px;
     }
 
     .about-container {
@@ -1322,7 +1322,7 @@ ITEM
 @media (max-width:576px) {
 
     .features-section {
-        padding: 60px 15px;
+        padding: 0px 15px;
     }
 
     .features-left {
@@ -1887,7 +1887,7 @@ HOVER
 
     .customization-card {
         position: relative;
-        left: 0;
+        left: 20px;
         bottom: 20px;
     }
 
@@ -2824,7 +2824,7 @@ ARROWS
     }
 
     .tentSwiper {
-        padding-bottom: 70px;
+        padding-bottom: 30px;
     }
 
     .tent-card {
@@ -2954,7 +2954,7 @@ ARROWS
     }
 
     .tent-back-text {
-        font-size: 13px;
+        font-size: 12px;
         line-height: 1.7;
     }
 
