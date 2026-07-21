@@ -64,7 +64,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 70px;
+    padding: 0 90px;
     border-bottom: 1px solid #eee;
     position: relative;
 }
@@ -78,7 +78,7 @@ header {
 }
 
 .logo img {
-    width: 150px;
+    width: 113px;
     display: block;
 }
 
@@ -290,7 +290,7 @@ ABOUT SECTION
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 70px 20px;
     /* background: #FDF9F4; */
 }
 
@@ -362,7 +362,7 @@ RIGHT
 .about-btn {
     display: inline-block;
     margin-top: 20px;
-    padding: 20px 30px;
+    padding: 18px 30px;
     background: #CBAA6A;
     color: #fff;
     text-decoration: none;
@@ -728,7 +728,7 @@ SMALL MOBILE - 576px
     .hero-content {
         left: 15px;
         bottom: 20px;
-        max-width: 160px;
+        max-width: 175px;
     }
 
     .hero-content h1 {
@@ -838,7 +838,7 @@ FEATURES SECTION
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 60px 30px;
+    padding: 25px 30px;
     background: #fff;
 }
 
@@ -915,6 +915,7 @@ RIGHT - FIXED HEIGHT
 ==================================*/
 
 .features-right {
+        border-radius: 8px;
     flex: 1;
     background: #F5F5F5;
     padding: 20px 60px;
@@ -1419,7 +1420,7 @@ OVERLAY CARD
     transform: translateX(-50%);
 
     width: 100%;
-    max-width: 1050px;
+    max-width: 1070px;
 
     min-height: 136px;
 
@@ -1451,7 +1452,7 @@ CONTENT
 
     flex: 1;
 
-    padding: 20px 45px;
+    padding: 8px 32px;
 
 }
 
@@ -1910,7 +1911,7 @@ GALLERY SECTION
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 80px 20px;
     background: #fff;
 }
 
@@ -1960,7 +1961,7 @@ TOP ROW
 }
 
 .gallery-top .gallery-img {
-    height: 132px;
+    height: 185px;
 }
 
 /* Fix specific images */
@@ -2051,7 +2052,7 @@ BOTTOM ROW
 
 .gallery-bottom {
     display: grid;
-    grid-template-columns: .7fr .7fr 1.2fr 1.5fr;
+    grid-template-columns: .7fr .7fr 1.1fr 1.5fr;
     gap: 12px;
 }
 
@@ -2426,7 +2427,7 @@ TENT COLLECTION
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 45px 20px;
     background: #F9F9F9;
     overflow: hidden;
 }
@@ -2533,11 +2534,7 @@ FRONT / BACK
 FRONT
 ==================================*/
 
-.tent-front {
 
-    background: #fff;
-
-}
 
 .tent-front img {
 
@@ -2687,30 +2684,23 @@ ARROWS
     width: 48px;
     height: 48px;
 
-    border: 1px solid #CBAA6A;
+    /* border: 1px solid #CBAA6A; */
 
     border-radius: 50%;
 
     color: #CBAA6A;
 
-    background: #fff;
+    /* background: #fff; */
 
     transition: .35s;
 
 }
 
-.tentSwiper .swiper-button-next:hover,
-.tentSwiper .swiper-button-prev:hover {
-
-    background: #CBAA6A;
-    color: #fff;
-
-}
 
 .tentSwiper .swiper-button-next:after,
 .tentSwiper .swiper-button-prev:after {
 
-    font-size: 18px;
+    font-size: 35px;
     font-weight: 700;
 
 }
@@ -2975,14 +2965,12 @@ ARROWS
 }
 
 
-/*==================================
-EXPERTS SECTION
-==================================*/
+
 
 .experts-section {
     width: 100%;
     max-width: 1920px;
-    margin: 60px auto 0;
+    margin: 80px auto 0;
     padding: 0px 50px;
     background: #D0C09E;
 }
@@ -2996,9 +2984,7 @@ EXPERTS SECTION
     overflow: hidden;
 }
 
-/*==================================
-BACKGROUND IMAGE
-==================================*/
+
 
 .experts-bg {
     position: absolute;
@@ -3016,9 +3002,7 @@ BACKGROUND IMAGE
     transition: transform .8s ease;
 }
 
-/*==================================
-OVERLAY
-==================================*/
+
 
 .experts-overlay {
     position: absolute;
@@ -3033,9 +3017,7 @@ OVERLAY
     transform: translateX(-50%);
 }
 
-/*==================================
-CONTENT
-==================================*/
+
 
 .experts-content {
     width: min(1050px, 95%);
@@ -3062,9 +3044,6 @@ CONTENT
             rgba(208, 192, 158, 0.35) 100%);
 }
 
-/*==================================
-TITLE
-==================================*/
 
 .experts-title {
     font-size: 120px;
@@ -3077,9 +3056,7 @@ TITLE
        font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-/*==================================
-SUB TITLE
-==================================*/
+
 
 .experts-subtitle {
     font-weight: 300;
@@ -3098,9 +3075,7 @@ SUB TITLE
     opacity: .9;
 }
 
-/*==================================
-BUTTON
-==================================*/
+
 
 .experts-btn {
     display: inline-flex;
@@ -3146,9 +3121,7 @@ BUTTON
     color: #fff;
 }
 
-/*==================================
-FADE ANIMATION
-==================================*/
+
 
 @keyframes expertsFade {
     from {
@@ -3162,9 +3135,7 @@ FADE ANIMATION
     }
 }
 
-/*==================================
-RESPONSIVE - Background only left-right 40px
-==================================*/
+
 
 /* 1024px */
 @media (max-width:1024px) {
@@ -3394,9 +3365,7 @@ MEGA MENU
     padding: 40px;
 }
 
-/*==============================
-LEFT
-==============================*/
+
 
 .mega-left {
 
@@ -3442,9 +3411,6 @@ LEFT
     color: #CBAA6A;
 }
 
-/*==============================
-RIGHT
-==============================*/
 
 .mega-right {
 
@@ -3466,9 +3432,7 @@ RIGHT
     display: block;
 }
 
-/*==============================
-IMAGES
-==============================*/
+
 
 .mega-images {
 
@@ -3511,9 +3475,6 @@ IMAGES
     font-family: 'Lora', serif;
 }
 
-/*====================================
-BOTTOM CTA
-====================================*/
 
 .mega-bottom {
 
@@ -3614,9 +3575,7 @@ BOTTOM CTA
 }
 
 
-/*====================================
-TAB 2
-====================================*/
+
 
 #tab2 .mega-images {
 
@@ -3624,9 +3583,7 @@ TAB 2
 }
 
 
-/*====================================
-TAB 3
-====================================*/
+
 
 #tab3 .mega-images {
 
@@ -3634,19 +3591,12 @@ TAB 3
 }
 
 
-/*====================================
-TAB 4
-====================================*/
 
 #tab4 .mega-images {
 
     grid-template-columns: repeat(3, 140px);
 }
 
-
-/*====================================
-CARD EFFECT
-====================================*/
 
 .mega-card {
 
@@ -3669,9 +3619,6 @@ CARD EFFECT
 }
 
 
-/*====================================
-SCROLL
-====================================*/
 
 .mega-menu {
 
@@ -3694,10 +3641,6 @@ SCROLL
 
 
 
-
-/*==============================
-        FOOTER
-==============================*/
 
 .footer {
     position: relative;
@@ -3742,9 +3685,6 @@ SCROLL
     gap: 5px;
 }
 
-/*==============================
-LEFT
-==============================*/
 
 .footer-left {
     margin-right: 35px;
@@ -3809,9 +3749,7 @@ LEFT
     object-fit: contain;
 }
 
-/*==============================
-LINKS - Desktop (h3 replaced with div)
-==============================*/
+
 
 .footer-links .footer-heading,
 .footer-contact .footer-heading {
@@ -3862,9 +3800,7 @@ LINKS - Desktop (h3 replaced with div)
     padding-left: 5px;
 }
 
-/*==============================
-CONTACT
-==============================*/
+
 
 .footer-contact {
     /* text-align: center; */
@@ -3935,9 +3871,7 @@ CONTACT
     font-family: 'Lora', serif;
 }
 
-/*==============================
-SOCIAL
-==============================*/
+
 
 .footer-social {
     justify-content: center;
@@ -3975,9 +3909,7 @@ SOCIAL
     color: #2f1e18;
 }
 
-/*==============================
-BOTTOM
-==============================*/
+
 
 .footer-bottom {
 
@@ -4034,9 +3966,6 @@ BOTTOM
 }
 
 
-/*========================================
-TABLET - 991px
-========================================*/
 
 @media (max-width:991px) {
 
@@ -4081,9 +4010,6 @@ TABLET - 991px
 }
 
 
-/*========================================
-TABLET - 768px
-========================================*/
 
 @media (max-width:768px) {
 
@@ -4126,9 +4052,6 @@ TABLET - 768px
 }
 
 
-/*========================================
-MOBILE - 576px
-========================================*/
 
 @media (max-width:576px) {
 
@@ -4276,9 +4199,6 @@ MOBILE - 576px
 }
 
 
-/*========================================
-EXTRA SMALL - 400px
-========================================*/
 
 @media (max-width:400px) {
 
