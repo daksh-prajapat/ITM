@@ -3323,6 +3323,8 @@ ARROWS
 /*==============================
 MEGA MENU
 ==============================*/
+
+
 .has-mega-menu {
     position: static;
 }
@@ -3368,7 +3370,7 @@ MEGA MENU
 
 
 .mega-left {
-
+padding-top: 5px;
     border-right: 1px solid #ececec;
 
     grid-area: left;
@@ -3440,7 +3442,7 @@ MEGA MENU
 
     grid-template-columns: repeat(6, 1fr);
 
-    gap: 18px;
+    gap: 8px;
 }
 
 .mega-card {
@@ -3454,13 +3456,10 @@ MEGA MENU
 
 .mega-card img {
 
-    width: 90%;
-
-    height: 210px;
-
+    width: 100%;
+     height: 270px;
     border-radius: 12px;
-
-    object-fit: contain;
+    object-fit: cover;
 
     transition: .4s;
 }
@@ -3472,7 +3471,7 @@ MEGA MENU
     text-align: left;
     font-weight: 400;
     color: #18171C;
-    font-family: 'Lora', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 
@@ -3509,7 +3508,7 @@ MEGA MENU
 
     line-height: 1.4;
 
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
     font-family: 'Lora', serif;
 }
@@ -3526,7 +3525,7 @@ MEGA MENU
 
     margin-bottom: 25px;
 
-    font-family: 'Lora', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .bottom-left a {
