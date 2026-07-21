@@ -2224,12 +2224,12 @@ MOBILE HIDE
     }
 
     .gallerySwiper .swiper-button-next {
-        right: 10px;
+        right: 275px;
         left: auto;
     }
 
     .gallerySwiper .swiper-button-prev {
-        left: 10px;
+        left: 275px;
         right: auto;
     }
 
