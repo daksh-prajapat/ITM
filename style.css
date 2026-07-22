@@ -3342,7 +3342,7 @@ MEGA MENU
     max-width: calc(100% - 40px);
 
     background: #F7F4EF;
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 15px 60px rgba(0, 0, 0, .15);
 
     opacity: 0;
