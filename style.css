@@ -3365,7 +3365,7 @@ MEGA MENU
         "left right"
         "bottom bottom";
 
-    padding: 20px 10px 20px 0px;
+    padding: 20px 10px 30px 0px;
 }
 
 
@@ -3383,7 +3383,7 @@ padding-top: 5px;
     gap: 12px;
 }
 
-.menu-item {
+.menu-item span {
 
     display: flex;
 
@@ -3399,15 +3399,15 @@ padding-top: 5px;
 
     font-weight: 400;
 
-    padding: 16px 18px;
+    padding: 16px 35px;
 
     transition: .3s;
 
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-.menu-item.active,
-.menu-item:hover {
+.menu-item.active span,
+.menu-item span:hover {
 
     background: #FFFFFF;
 
@@ -3483,7 +3483,7 @@ padding-top: 5px;
     padding: 52px 50px;
     background-color: #FFFFFF;
     margin-left: 3%;
-    max-width: 1190px;
+max-width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -3509,7 +3509,7 @@ padding-top: 5px;
 
     line-height: 1.4;
 
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 
     font-family: 'Lora', serif;
 }
